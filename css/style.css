@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* global */
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 1 0 0%;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.container {
+    width: 1140px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 20px;
+}
+
+.booking {
+    background: url('../img/img\ 17.jpg');
+    background-size: cover;
+    /* color: #fff; */
+    text-align: center;
+    padding: 100px 0;
+    height: 500px;
+    width: 100%;
+}
+
+.booking form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.booking input,
+.booking button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.about,
+.rooms,
+.gallery,
+.blog,
+.contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+
+.about img{
+    width: 400px;
+}
+
+.room-cards,
+.gallery-images,
+.blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.gallery-images img{width: 250px; }
+.room-card,
+.blog-post {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.room-card img,
+.blog-post img {
+    width: 100%;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.map img {
+    width: 400px;
+}
+
+
+
+
+
+
+
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* .booking {
+    background: url('./img/img\ 17.jpg');
+    height: 300px;
+    width: 100%;
+} */
+
+.blog {
+    background: url('./img/img\ 16.jpg');
+    /* width: 20%; */
+}
+
+
+
+
+
+.about .wrapper_about {
+    display: flex;
+}
+
+.about .wrapper_about .about_img {
+    width: 55%;
+    height: 280px;
+}
+
+
+.logos{
+    display: flex;
+    justify-content: space-around;
+}
